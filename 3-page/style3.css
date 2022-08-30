@@ -64,6 +64,7 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding-right: 50px;
 }
 
 .comment{
@@ -71,16 +72,100 @@ nav{
     width: 60px;
     border-radius: 50%;
     background: none;
+    margin: 10px;
 }
 .call{
     width: 60px;
     height: 60px;
+    margin: 10px;
     border-radius: 50%;
     background: none;
 }
 .settings{
     width: 60px;
+    margin: 10px;
     height: 60px;
     border-radius: 50%;
     background: none;
+}
+
+
+.info{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.info_nav{
+    margin-bottom: 40px ;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.info_fath{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.info1{
+    width: 347px;
+    height: 200px;
+    padding: 32px;
+    margin: 14.5px;
+
+    /* White */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.info_1_left p{
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.info_1_left h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    margin-bottom: 36px;
+
+    /* Black */
+
+    color: #22242C;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.bottom span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    /* Red */
+    color: #FF4A55;
+}
+
+.bottom p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray */
+
+    color: #8E8EA1;
 }
