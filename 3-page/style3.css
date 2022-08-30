@@ -60,7 +60,7 @@ nav{
 
     border: none;
 }
-.korzinka{
+.korzinka{ 
     display: flex;
     align-items: center;
     flex-direction: row;
