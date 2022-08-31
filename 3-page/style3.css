@@ -169,3 +169,179 @@ nav{
 
     color: #8E8EA1;
 }
+.check{
+    width: 1477px;
+    height: 837px;
+    margin-left: 50px;
+    border-radius: 40px;    
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.check_nav{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 49px;
+}
+.check_nav2{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-right: 47px;
+    margin:  0;
+}
+.slider{
+    width: 5px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    display: none;
+/* Purple */
+
+background: #6160DC;
+}
+.check_1{
+    width: 1477px;
+    height: 112px;
+    display: flex;
+    margin: 2px 0;
+    padding-right: 53px;
+    align-items:center;
+    padding-left: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+.p1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.check_btn{
+    width: 110px;
+    height: 48px;
+    /* Purple */
+    padding: 25px;
+    border: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #6160DC;
+    border-radius: 40px;
+}
+.check_btn1{
+    width: 110px;
+    height: 48px;
+    /* Purple */
+    padding: 25px;
+    border: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #FF4A55;
+    border-radius: 40px;
+}
+.check_btn2{
+    width: 110px;
+    height: 48px;
+    /* Purple */
+    padding: 25px;
+    border: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #54C5EB;
+    border-radius: 40px;
+}
+.check_btn3{
+    width: 110px;
+    height: 48px;
+    /* Purple */
+    padding: 25px;
+    border: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius: 40px;
+background: #FFB74A;
+
+}
+.check_btn4{
+    width: 110px;
+    height: 48px;
+    /* Purple */
+    padding: 25px;
+    border: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius: 40px;
+background: #6160DC;
+
+}
+.check_text{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+}
+.ps :nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.yum{
+    width: 48px;
+    height: 48px;
+    margin: 16px;
+    /* Gray 2 */
+
+    background: #F5F5F5;
+    border-radius: 40px;
+
+}
+.p2{
+    font-family:sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.p3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #22242C;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.icons :nth-child(1){
+    margin-right: 15px;
+}
