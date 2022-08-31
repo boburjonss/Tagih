@@ -18,5 +18,27 @@ body{
     justify-content: center;
 }
 
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bar{
+    width: 409px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: crimson;
+    flex-direction: column;
+
+}
+
+
+
 
 
