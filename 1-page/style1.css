@@ -27,14 +27,76 @@ body{
     justify-content: flex-start;
 }
 
-.bar{
-    width: 409px;
+.wrapper .bar{
+    width: 25%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+    background: #FFFFFF;
+    
+}
+.bar .logo{
+    padding: 30px 40px;
+}
+
+.wrapper .bar .menu{
+    width: 299px;
+    height: 504px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 18px;
+    padding-left: 30px;
+}
+.wrapper .bar .menu .home img{
+    margin-right: 50px;
+   
+}
+
+.wrapper .bar .menu .home a{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray */
+
+    color: #8E8EA1;
+}
+
+.wrapper .bar .text{
+    width: 100%;
     height: auto;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    background: crimson;
     flex-direction: column;
+    padding: 50px 30px;
+}
+
+.wrapper .bar .text p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    padding-bottom: 15px;
+    color: #A098AE;
+
+}
+.wrapper .bar .text span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #A098AE;
 
 }
 
