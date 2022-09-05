@@ -8,6 +8,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+button{cursor: pointer;}
 
 
 body{
@@ -101,6 +102,385 @@ body{
 }
 
 
+/* ========= pages  */
+
+
+.pages{
+    width: 75%;
+    background-color: whitesmoke;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    height: 60px;
+    /* White */
+    padding-left: 36px;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+.search_icon{
+    background: none;
+    padding-right: 20px;
+    border: none;
+}
+.search_input{
+    width: 250px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    outline: none;
+
+    /* Gray */
+
+    color: #8E8EA1;
+
+    border: none;
+}
+.korzinka{ 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+.comment{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: none;
+    margin: 10px;
+}
+.call{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: none;
+}
+.settings{
+    width: 60px;
+    margin: 10px;
+    height: 60px;
+    border-radius: 50%;
+    background: none;
+}
+
+
+.info{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.info_nav{
+    margin-bottom: 40px ;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.info_fath{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.info1{
+    width: 347px;
+    height: 200px;
+    padding: 32px;
+    margin: 14.5px;
+
+    /* White */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+
+.info_1_left p{
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.info_1_left h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    margin-bottom: 36px;
+
+    /* Black */
+
+    color: #22242C;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.bottom span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    /* Red */
+    color: #FF4A55;
+}
+
+.bottom p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Gray */
+
+    color: #8E8EA1;
+}
+
+
+/* ================= section1 */
+
+.section1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0 0 33px;
+}
+
+#img2{
+    position:absolute;
+    
+}
+#img3{
+    position: relative;
+    left: 255px;
+    top: 130px;
+}
+
+.right{
+    margin-top: 160px;
+}
 
 
 
+/* ====================section2*/
+
+
+.section2{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 60px;
+
+}
+.section2 img{
+    width: 600px; 
+    height: 450px;
+}
+
+
+/* ==============section3 */
+
+.section3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 35px 45px;
+}
+.section3 .lastest{
+    width: 747px;
+    height: 725px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.section3 .lastest .text_1{
+    padding: 32px 0 31px 32px;
+}
+.section3 .lastest .text_1 p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+
+    color: #22242C;
+}
+
+.section3 .lastest .information{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.section3 .lastest .information .kursDolar{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+}
+.greyClas{
+    background-color: #F5F5F5;
+}
+.kursDolar .spam1 p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+
+    color: #22242C;
+
+}
+.kursDolar .spam1 span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+
+    color: #8E8EA1;
+}
+.kursDolar p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #22242C;
+
+}
+.kursDolar span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #00A389;    
+
+    text-align: right;
+
+}
+.kursDolar span:hover{
+    color: #FF4A55;
+}
+.kursDolar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    
+    border: none;
+}
+.lastest .box1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px 0 40px;
+}
+.lastest .box1 .text span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    /* padding-left: ; */
+    color: #8E8EA1;
+}
+
+.lastest .box1 .btns button{
+    width: 51px;
+    height: 51px;
+    left: calc(50% - 51px/2 - 0.5px);
+    top: 0px;
+    margin: 0 5px;
+    /* Gray */
+    align-items: center;
+color: #8E8EA1;
+    border: 2px solid #8E8EA1;
+    border-radius: 40px;
+    transition: all .5s ease-in-out;
+}
+.lastest .box1 .btns button:hover{
+    background-color: #6160DC;
+    color: white;
+}
+.lastest .box1 .btns{
+    display: flex;
+    align-items: center;
+}
+#btnone{
+    background: none;
+    border: none;
+    border-radius: none;
+    
+}
+.Earning{
+    width: 588px;
+    height: 725px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 32px 0 0 32px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+.Earning .text p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #22242C;
+}
